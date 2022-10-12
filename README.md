@@ -14,9 +14,9 @@ The purpose of this analysis is to assist FastLending, a peer-to-peer lending se
 I created and trained six machine learning models to predict credit risk of loan candidates. These six machine learning models take into consideration the imbalance of classes (most loans are good loans and are not risky) and addresses the imbalance with a resampling technique. Below is a bulleted list that describes the balanced accuracy score, and the precision and recall scores of each model: 
 
 * Naive Random Oversampler
-       * Balanced Accuracy Score: 0.5854457252150106
-       * Precision: 0.01 for high_risk / 1.00 for low_risk 
-       * Recall: 0.53 for high_risk / 0.64 for low_risk
+      * Balanced Accuracy Score: 0.5854457252150106
+      * Precision: 0.01 for high_risk / 1.00 for low_risk 
+      * Recall: 0.53 for high_risk / 0.64 for low_risk
 * SMOTE Oversampling
        * Balanced Accuracy Score: 0.6054959236740347
        * Precision: 0.01 for high_risk / 1.00 for low_risk 
